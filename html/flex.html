@@ -5,43 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../assets/css/general.css">
     <title>Instagram | dumpovci</title>
 </head>
 
 <body>
     <nav>
-        <img src="" alt="Instagram logo">
-        <button>
-            Prijavi se
-        </button>
-        <button>
-            Registrirajte se
-        </button>
+        <div class="navbar__logo">
+            <a class="navbar__logo--seperator" href="#">I</a>
+            <a class="navbar__logo--text" href="#">Instagram text</a>
+        </div>
+        <div class="register__buttons">
+            <button class="register__buttons--blue">
+                Prijavi se
+            </button>
+            <button class="register__buttons--transparent">
+                Registrirajte se
+            </button>
+        </div>
     </nav>
 
     <header>
-        <section>
-            <img src="" alt="Dump slika">
-            <div>
-                <p>
+        <div class="header__general">
+            <img class="header__general--avatar" src="../assets/images/avatar.jpg" alt="Avatar dump">
+            <section class="header__general__info">
+                <h1>
                     dumpovci
-                </p>
+                </h1>
                 <button>
                     Prati
                 </button>
-            </div>
-        </section>
-        <section>
-            <h1>
+            </section>
+        </div>
+        <section class="header__description">
+            <h2>
                 DUMP Udruga mladih programera
-            </h1>
+            </h2>
             <p>
                 Udruga mladih iz Splita usmjerena na izgradnju zajednice, širenje entuzijazma, suradnju članova i pomoć
                 budućim generacijama.
             </p>
             <a href="https://bit.ly/2U8tH2U">bit.ly/2U8tH2U</a>
         </section>
+    </header>
 
+    <main>
         <!--Promini u tablicu !!!-->
 
         <section>
@@ -58,32 +66,31 @@
                 127
             </p>
         </section>
-    </header>
 
-    <main>
+
         <!--Tablica, grid, flex, float i popup-->
     </main>
 
-    <footer>
-        <img src="" alt="Instagram ikonica">
+    <footer id="close">
+        <a class="footer__close" href="#close">&times;</a>
+        <a class="footer__logo" href="#">Instagram ikonica</a>
         <span>
-            <h2>
+            <h3>
                 Prijavite se u Instagram
-            </h2>
+            </h3>
             <p>
                 Prijavite se kako biste vidjeli fotografije i videozapise svojih prijatelja te otkrili još korisničkih
                 računa koji će vam se svidjeti.
             </p>
         </span>
-        <span>
-            <button>
+        <span class="register__buttons">
+            <button class="register__buttons--blue">
                 Prijavi se
             </button>
-            <button>
+            <button class="register__buttons--transparent">
                 Registrirajte se
             </button>
         </span>
-        <a href="#">&times;</a>
     </footer>
 </body>
 
