@@ -17,6 +17,7 @@ nav {
     right: 8px;
     left: 8px;
     border-bottom: 0.5px solid rgba(128, 128, 128, 0.4);
+    z-index: 1;
 }
 
 .navbar__logo {
@@ -176,17 +177,70 @@ footer p {
     margin-top: 0
 }
 
-
-
-
-
-
-
-
-/*IZBRISI KAD DODE DRUGI DIO*/
-
-
 main {
     position: relative;
     top: 100px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.main__info {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 12px 0;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    margin: 24px 0 0 0;
+}
+
+.main__info--wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    flex-basis: 33%;
+}
+
+.main__info--description {
+    color: #999;
+}
+
+.main__info--number {
+    color: #262626;
+    font-weight: 600;
+}
+
+.display__choices {
+    display: flex;
+}
+
+.display__choices span {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+}
+
+.display__choices a {
+    color: transparent;
+    display: inline-block;
+}
+
+.display__choices--all {
+    background-image: url(../images/sprite2.png);
+    background-repeat: no-repeat;
+    background-position: -354px -732px;
+    height: 24px;
+    width: 24px;
+}
+
+.display__choices--tagged {
+    background-image: url(../images/sprite2.png);
+    background-repeat: no-repeat;
+    background-position: -630px -638px;
+    height: 24px;
+    width: 24px;
 }

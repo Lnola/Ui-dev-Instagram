@@ -1,0 +1,22 @@
+.main__images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__images a {
+    height: 123px;
+    width: 123px;
+    margin: 1.5px;
+}
+
+.main__images img {
+    height: 123px;
+}
+
+.m-left-0 {
+    margin-left: 0 !important;
+}
+
+.m-right-0 {
+    margin-right: 0 !important;
+}
