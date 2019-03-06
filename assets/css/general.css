@@ -10,18 +10,34 @@ nav {
     position: fixed;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0;
     padding: 21px 5px;
     background-color: white;
+    padding-left: 8px;
+    padding-right: 8px;
     top: 0;
-    right: 8px;
-    left: 8px;
+    right: 0;
+    left: 0;
     border-bottom: 0.5px solid rgba(128, 128, 128, 0.4);
     z-index: 1;
 }
 
 .navbar__logo {
     height: 35px;
+    margin-left: 15px;
+}
+
+.navbar__logo--camera {
+    color: transparent;
+    display: inline-block;
+    background-image: url(../images/sprite1.png);
+    background-repeat: no-repeat;
+    background-position: -120px -123px;
+    background-size: 260px;
+    height: 24px;
+    width: 24px;
+    display: none;
 }
 
 .navbar__logo--text {
@@ -29,21 +45,42 @@ nav {
     display: inline-block;
     background-image: url(../images/sprite2.png);
     background-repeat: no-repeat;
-    background-size: 270px 227px;
-    background-position: 0 -55px;
+    background-size: 250px 230px;
+    background-position: 0 -56px;
     margin-top: 5px;
     height: 30px;
-    width: 115px;
+    width: 105px;
 }
 
 .navbar__logo--seperator {
     color: transparent;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #262626;
     display: inline-block;
     margin: 0 10px;
-    padding-top: 5px;
-    height: 28px;
+    padding: 2px 0;
+    height: 24px;
     width: 1px;
+}
+
+.navbar__input {
+    padding: 11px;
+    width: 52.5px;
+    height: 4px;
+    padding-right: 80px;
+    padding-left: 80px;
+    text-align: center;
+    background: #fafafa;
+    border: solid 1px #dbdbdb;
+    border-radius: 4px;
+    display: none;
+}
+
+::placeholder {
+    background-image: url(../images/sprite1.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: -288px -123px;
+    color: #999;
 }
 
 .register__buttons {
@@ -78,7 +115,7 @@ header {
 
 .header__general {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .header__general--avatar {
@@ -106,10 +143,11 @@ header {
     background-color: #3897f0;
     color: white;
     margin-right: 10px;
+    height: 30px;
 }
 
 .header__description {
-    margin-top: 27px;
+    margin-top: 15px;
 }
 
 .header__description h2 {
@@ -243,4 +281,8 @@ ul {
     background-position: -630px -638px;
     height: 24px;
     width: 24px;
+}
+
+.d-none {
+    display: none;
 }

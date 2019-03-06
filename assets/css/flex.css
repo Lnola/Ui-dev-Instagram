@@ -4,13 +4,14 @@
 }
 
 .main__images a {
-    height: 123px;
-    width: 123px;
-    margin: 1.5px;
+    height: 32.8%;
+    width: 32.8%;;
+    margin: 0 1.5px;
 }
 
 .main__images img {
-    height: 123px;
+    height: 100%;
+    width: 100%;
 }
 
 .m-left-0 {

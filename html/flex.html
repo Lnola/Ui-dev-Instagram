@@ -7,15 +7,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../assets/css/general.css">
     <link rel="stylesheet" href="../assets/css/flex.css">
+    <link rel="stylesheet" href="../assets/css/responsivity.css">
     <title>Instagram | dumpovci</title>
 </head>
 
 <body>
     <nav>
         <div class="navbar__logo">
+            <a class="navbar__logo--camera" href="#">logo</a>
             <a class="navbar__logo--seperator" href="#">I</a>
             <a class="navbar__logo--text" href="#">Instagram text</a>
         </div>
+
+        <input class="navbar__input" type="text" placeholder="   Traži">
+
         <div class="register__buttons">
             <button class="register__buttons--blue">
                 Prijavi se
@@ -37,21 +42,49 @@
                     Prati
                 </button>
             </section>
+
+            <ul class="main__info p-absolute d-none">
+                    <li class="main__info--wrap">
+                        <span class="main__info--description  w-50px">
+                            Broj objava:
+                        </span>
+                        <span class="main__info--number">
+                            181
+                        </span>
+                    </li>
+                    <li class="main__info--wrap">
+                        <span class="main__info--description">
+                            Pratitelja:
+                        </span>
+                        <span class="main__info--number">
+                            724
+                        </span>
+                    </li>
+                    <li class="main__info--wrap">
+                        <span class="main__info--description">
+                            Pratim
+                        </span>
+                        <span class="main__info--number">
+                            127
+                        </span>
+                    </li>
+                </ul>
+
+            <section class="header__description">
+                <h2>
+                    DUMP Udruga mladih programera
+                </h2>
+                <p>
+                    Udruga mladih iz Splita usmjerena na izgradnju zajednice, širenje entuzijazma, suradnju članova i pomoć
+                    budućim generacijama.
+                </p>
+                <a href="https://bit.ly/2U8tH2U">bit.ly/2U8tH2U</a>
+            </section>
         </div>
-        <section class="header__description">
-            <h2>
-                DUMP Udruga mladih programera
-            </h2>
-            <p>
-                Udruga mladih iz Splita usmjerena na izgradnju zajednice, širenje entuzijazma, suradnju članova i pomoć
-                budućim generacijama.
-            </p>
-            <a href="https://bit.ly/2U8tH2U">bit.ly/2U8tH2U</a>
-        </section>
     </header>
 
     <main>
-        <ul class="main__info">
+        <ul class="main__info d-none768">
             <li class="main__info--wrap">
                 <span class="main__info--description">
                     Broj objava:
