@@ -51,20 +51,52 @@ li {
     float: left;
 }
 
+footer {
+    text-align: center;
+}
+
+.footer__links {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 25px;
+}
+
+footer p {
+    display: inline-block;
+}
+
+.modal__title--avatar {
+    float: left;
+}
+
+.modal__title figcaption {
+    display: inline-block;
+    width: 20px;
+    margin: 4px 20px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
 .m-25 {
     margin: 0 25%;
 }
 
-.m-left-7 {
-    margin: 0 7%;
+.m-auto {
+    margin: 0 auto;
 }
 
-.m-30px {
-    margin: 0 30px;
+.m-left-7-20 {
+    margin: 0 7% 0 20%;
 }
 
-.m-left-45px {
-    margin-left: 45px;
+.m-left-20-7 {
+    margin: 0 20% 0 7%;
 }
 
 .h10 {

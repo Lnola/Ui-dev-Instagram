@@ -1,7 +1,7 @@
 @media screen and (max-width: 1000px) {
 
     .navbar__input {
-        margin: 0 12%;
+        margin: 0 11%;
     }
 }
 
@@ -23,5 +23,164 @@
     
     .header__general--wrap {
         margin-left: 35%;
+    }
+
+    .header__description {
+        margin-top: 12px;
+    }
+
+    main {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    .main__images {
+        display: inline-block;
+    }
+
+    .main__images a {
+        width: 30.7%;
+    }
+
+    .display__choices {
+        margin-left: 36%;
+        margin-right: 0;
+    }
+
+    .display__choices--wrap {
+        display: inline-block;
+        width: 75px;
+        padding-top: 15px;
+    }
+
+    .display__choices a {
+        margin: 0 !important;
+        float: left;
+    }
+
+    .display__choices--wrap p {
+        margin: 0;
+        float: right;
+    }
+
+    .width-95px {
+        width: 95px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .main__images a {
+        width: 31.2%;
+    }
+
+    .footer__links {
+        float: left;
+        margin-bottom: 25px;
+    }
+
+    footer p {
+        float: right;
+    }
+}
+
+@media screen and (min-width: 720px) {
+
+    .popup {
+        margin: 0 auto;
+        margin-top: 145px;
+        height: 300px;
+        width: 930px;
+    }
+    
+    .popup__image--ratio {
+        width: 592px;
+        float: left;
+    }
+    
+    .modal {
+        float: right;
+        height: 592px;
+        max-width: 36%;
+    }
+
+    .modal__title figcaption {
+        width: 150px;
+        margin: 10px;
+    }
+
+    .modal__title--avatar {
+        margin-left: 0;
+    }
+
+    .modal__title {
+        padding-top: 20px;
+    }
+
+    .modal__bottom {
+        top: 375px;
+    }
+
+    .modal__info {
+        background-color: #fff;
+        padding-top: 10px;
+    }
+
+    .modal__comment {
+        background-color: #fff;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .popup {
+        margin: 0 auto;
+        margin-top: 125px;
+        min-height: 450px;
+        width: 690px;
+    }
+
+    .popup__image--ratio {
+        width: 354px;
+        float: left;
+        margin-top: 50px;
+    }
+
+    .modal {
+        height: 300px;
+    }
+
+    .modal__bottom {
+        top: 280px
+    }
+
+    .modal__comment {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    .popup {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+
+    .popup__image--ratio {
+        display: inline;
+        margin: auto;
+        width: 100%;
+    }
+
+    .modal {
+        display: inline;
+    }
+
+    .modal__description {
+        background-color: #fff;
     }
 }
