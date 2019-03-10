@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../assets/css/common.css">
     <link rel="stylesheet" href="../assets/css/common_responsivity.css">
-    <link rel="stylesheet" href="../assets/css/flex.css">
-    <link rel="stylesheet" href="../assets/css/flex_responsivity.css">
-    <title>Instagram | dumpovci-flex</title>
+    <link rel="stylesheet" href="../assets/css/float.css">
+    <link rel="stylesheet" href="../assets/css/float_responsivity.css">
+    <title>Instagram | dumpovci-float</title>
 </head>
 
 <body>
@@ -20,8 +20,6 @@
             <a class="navbar__logo--text" href="#">Instagram text</a>
         </div>
 
-        <input class="navbar__input" type="text" placeholder="   Traži">
-
         <div class="register__buttons">
             <button class="register__buttons--blue">
                 Prijavi se
@@ -30,6 +28,8 @@
                 Registrirajte se
             </button>
         </div>
+
+        <input class="navbar__input" type="text" placeholder="   Traži">
     </nav>
 
     <header>
@@ -86,39 +86,39 @@
     </header>
 
     <main>
-        <ul class="main__info d-none768">
-            <li class="main__info--wrap">
-                <span class="main__info--description">
+        <ul class="main__info h10 d-none768">
+            <li class="main__info--wrap m-left-7">
+                <span class="main__info--description main__info--description--bottom">
                     Broj objava:
                 </span>
-                <span class="main__info--number">
+                <span class="main__info--number main__info--number--bottom">
                     181
                 </span>
             </li>
-            <li class="main__info--wrap">
-                <span class="main__info--description">
+            <li class="main__info--wrap m-30px">
+                <span class="main__info--description main__info--description--bottom">
                     Pratitelja:
                 </span>
-                <span class="main__info--number">
+                <span class="main__info--number main__info--number--bottom">
                     724
                 </span>
             </li>
-            <li class="main__info--wrap">
-                <span class="main__info--description">
+            <li class="main__info--wrap m-left-45px">
+                <span class="main__info--description main__info--description--bottom">
                     Pratim
                 </span>
-                <span class="main__info--number">
+                <span class="main__info--number main__info--number--bottom">
                     127
                 </span>
             </li>
         </ul>
 
-        <section class="display__choices">
-            <span class="b-top-1px">
+        <section class="display__choices clear">
+            <span class="display__choices--wrap b-top-1px">
                 <a class="display__choices--all" href="#">Choose photos</a>
                 <p>OBJAVE</p>
             </span>
-            <span class="m-left-80">
+            <span class="display__choices--wrap m-left-80">
                 <a class="display__choices--tagged" href="#">Choose photos</a>
                 <p>OZNAČENI</p>
             </span>

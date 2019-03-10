@@ -1,0 +1,72 @@
+.navbar__logo {
+    float: left;
+}
+
+.navbar__input {
+    margin: 0 20%;
+    margin-top: 4px;
+}
+
+.register__buttons {
+    float: right;
+}
+
+.header__description {
+    margin-top: 20px;
+}
+
+.main__info--description--bottom {
+    display: block;
+}
+
+.main__info--number--bottom {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+li {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.display__choices {
+    height: 45px;
+}
+
+.display__choices--wrap {
+    display: inline-block;
+    width: 49.4%;
+}
+
+.display__choices--wrap a {
+    margin: 10px 45%;
+}
+
+.main__images a {
+    display: inline-block;
+    float: left;
+}
+
+.m-25 {
+    margin: 0 25%;
+}
+
+.m-left-7 {
+    margin: 0 7%;
+}
+
+.m-30px {
+    margin: 0 30px;
+}
+
+.m-left-45px {
+    margin-left: 45px;
+}
+
+.h10 {
+    height: 40px;
+}

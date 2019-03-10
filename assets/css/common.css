@@ -1,0 +1,467 @@
+* {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 21px 8px;
+    background-color: white;
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.4);
+    z-index: 1;
+}
+
+.navbar__logo {
+    height: 35px;
+    margin-left: 15px;
+}
+
+.navbar__logo--camera {
+    color: transparent;
+    display: inline-block;
+    background-image: url(../images/sprite1.png);
+    background-repeat: no-repeat;
+    background-position: -120px -123px;
+    background-size: 260px;
+    height: 24px;
+    width: 24px;
+    display: none;
+}
+
+.navbar__logo--text {
+    color: transparent;
+    display: inline-block;
+    background-image: url(../images/sprite2.png);
+    background-repeat: no-repeat;
+    background-size: 250px 230px;
+    background-position: 0 -56px;
+    margin-top: 5px;
+    height: 30px;
+    width: 105px;
+}
+
+.navbar__logo--seperator {
+    color: transparent;
+    background-color: #262626;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 2px 0;
+    height: 24px;
+    width: 1px;
+}
+
+.navbar__input {
+    padding: 11px;
+    width: 52.5px;
+    height: 4px;
+    padding-right: 80px;
+    padding-left: 80px;
+    text-align: center;
+    background: #fafafa;
+    border: solid 1px #dbdbdb;
+    border-radius: 4px;
+    display: none;
+}
+
+::placeholder {
+    background-image: url(../images/sprite1.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: -288px -123px;
+    color: #999;
+}
+
+.register__buttons button {
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.register__buttons--blue {
+    background-color: #3897f0;
+    color: white;
+    margin-right: 10px;
+}
+
+.register__buttons--transparent {
+    background-color: transparent;
+    color: #3897f0;
+}
+
+header {
+    position: relative;
+    top: 105px;
+    margin: 0 16px;
+}
+
+.header__general--avatar {
+    border-radius: 50%;
+    height: 77px;
+}
+
+.header__general__info {
+    position: absolute;
+    top: 0;
+    left: 105px;
+}
+
+.header__general__info h1 {
+    font-weight: 100;
+    font-size: 28px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.header__general__info button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #3897f0;
+    color: white;
+    margin-right: 10px;
+    height: 30px;
+}
+
+.header__general--wrap {
+    margin-top: 10px;
+}
+
+.header__description {
+    margin-top: 15px;
+}
+
+.header__description h2 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+
+.header__description p {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 20px;
+}
+
+.header__description a {
+    font-size: 14px;
+    color: #003569;
+    font-weight: 600;
+}
+
+aside {
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.65);
+    color: white;
+    font-size: 12px;
+    padding: 8px;
+    left: 0;
+    right: 0;
+}
+
+aside:target{
+    display: none;
+}
+
+.aside__close {
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    color: #b9b9b9;
+}
+
+.aside__logo {
+    color: transparent;
+    background-image: url(../images/sprite2.png);
+    background-repeat: no-repeat;
+    background-size: 227px 227px;
+    background-position: -187px -35px;
+    margin-top: 5px;
+    height: 35px;
+    width: 35px;
+    display: none;
+}
+
+aside h3 {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+aside p {
+    margin-top: 0
+}
+
+main {
+    position: relative;
+    top: 100px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.main__info {
+    padding: 12px 0;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    margin: 24px 0 0 0;
+}
+
+.main__info--wrap {
+    font-size: 14px;
+}
+
+.main__info--description {
+    color: #999;
+}
+
+.main__info--number {
+    color: #262626;
+    font-weight: 600;
+}
+
+.main__images a {
+    height: 32.8%;
+    width: 32.8%;;
+    margin: 0 1.5px;
+}
+
+.main__images img {
+    height: 100%;
+    width: 100%;
+}
+
+.display__choices span {
+    height: 44px;
+}
+
+.display__choices a {
+    color: transparent;
+    display: inline-block;
+}
+
+.display__choices p {
+    display: none;
+}
+
+.display__choices--all {
+    background-image: url(../images/sprite2.png);
+    background-repeat: no-repeat;
+    background-position: -354px -732px;
+    height: 24px;
+    width: 24px;
+}
+
+.display__choices--tagged {
+    background-image: url(../images/sprite2.png);
+    background-repeat: no-repeat;
+    background-position: -630px -638px;
+    height: 24px;
+    width: 24px;
+}
+
+footer {
+    position: relative;
+    top: 125px;
+}
+
+.footer__links {
+    max-width: 85%;
+}
+
+.footer__links a{
+    color: #003569;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+footer p {
+    color: #999;
+    font-size: 12px;
+    height: 100%;
+    margin: 5px;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    z-index: 2;
+}
+
+.background:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    width: 73.5%;
+    min-height: 65%;
+    position: relative;
+    background: black;
+}
+
+.popup__image--ratio {
+    margin: auto;
+}
+
+.popup__image {
+    padding-top: 100%;
+    height: 0 !important;
+    background: url(../images/program.jpg);
+    background-size: 100%;
+}
+
+.popup img {
+    height: 100%;
+    width: 100%;
+}
+
+.modal {
+    max-width: 35%;
+    min-width: 335px;
+    font-size: 14px;
+    position: relative;
+    background-color: #fff;
+}
+
+.modal__title, .modal__description, .modal__info, .modal__comment {
+    border-bottom: rgba(153, 153, 153, 0.2) solid 1px;
+    padding: 20px;
+}
+
+.modal__description {
+    padding-top: 0;
+}
+
+.modal__info {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.modal__comment {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.modal__bottom {
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 3;
+    width: 100%;
+}
+
+.modal__title {
+    width: 310px;
+}
+
+.modal__title figure {
+    margin: 0;
+}
+
+.modal__title--avatar {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+figcaption {
+    display: inline-block;
+    width: 125px;
+    margin-left: 20px;
+}
+
+figcaption a {
+    color: #262626;
+    font-weight: 600;
+}
+
+.modal__description a {
+    color: #262626;
+    font-weight: 600;
+}
+
+.modal__description--hashtags, .modal__comment--register {
+    color: #003569 !important;
+    font-weight: 400 !important;
+}
+
+.modal__info--like {
+    color: #262626;
+    font-weight: 600;
+}
+
+.modal__info--icons a{
+    color: transparent;
+    display: inline-block;
+    background-image: url(../images/sprite1.png);
+    background-repeat: no-repeat;
+    background-size: 230px 200px;
+    width: 22px;
+    height: 22px;
+    margin: 5px;
+}
+
+.modal__info--heart {
+    background-position: -84px -135px;
+    margin-left: 0 !important;
+}
+
+.modal__info--comment {
+    background-position: -20px -113px;
+}
+
+.modal__info--share {
+    background-position: -148px -179px;
+}
+
+.modal__info--save {
+    background-position: -41px -178px;
+    position: absolute;
+    right: 20px;
+}
+
+.modal__info p {
+    font-size: 10px;
+    color: #999;
+}
+
+.modal__comment p {
+    color: #999;
+}
+
+.dis-none {                                                                 /*Atomic*/
+    display: none;
+}
+
+.d-none {                                                                   /*Atomic*/
+    display: none !important;
+}
+
+.m-left-0 {                                                                 /*Atomic*/
+    margin-left: 0 !important;
+}
+
+.m-right-0 {                                                                /*Atomic*/
+    margin-right: 0 !important;
+}
