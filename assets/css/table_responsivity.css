@@ -83,6 +83,10 @@
         margin-left: -1.5%;
     }
 
+    .display__choices--tagged {
+        left: 95px !important;
+    }
+
     footer {
         text-align: start;
     }
