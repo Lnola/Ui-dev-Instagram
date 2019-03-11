@@ -27,6 +27,11 @@
         display: inline-block;
     }
 
+    .main__info--wrap {
+        margin: 0;
+        text-align: start;
+    }
+
     .display__choices {
         width: 40%;
         margin: 0 40% 20px 40%;

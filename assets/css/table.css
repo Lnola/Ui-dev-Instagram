@@ -81,3 +81,22 @@ footer {
     margin: auto;
     line-height: 25px;
 }
+
+.popup {
+    background-color: #fff;
+}
+
+.modal__title figcaption {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+}
+
+figcaption a {
+    display: inline-block;
+    width: 150px;
+}
+
+.modal__title--avatar {
+    margin-left: 0 !important;
+}

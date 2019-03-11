@@ -100,3 +100,43 @@
         margin-left: 17%;
     }
 }
+
+@media screen and (min-width: 500px) {
+
+    .popup {
+        background-color: black;
+        margin: auto;
+        margin-top: 25px
+    }
+
+    .modal__title {
+        width: 92%
+    }
+}
+
+@media screen and (min-width: 720px) {
+
+    .popup {
+        display: table;
+        margin-top: 10%;
+    }
+
+    .popup__image--ratio {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .modal {
+        vertical-align: top;
+        display: table-cell;
+        max-width: 50%;
+    }
+
+    .modal__title--avatar {
+        position: static;
+    }
+
+    .modal__title figcaption {
+        margin-top: 10px
+    }
+}
