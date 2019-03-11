@@ -1,0 +1,83 @@
+nav {
+    display: table;
+    width: 100%;
+}
+
+.navbar__table {
+    display: table-row;
+    
+}
+
+.navbar__logo, .input__wrap, .register__buttons {
+    display: table-cell;
+}
+
+.navbar__logo {
+    width: 160px;
+    padding-left: 15px;
+}
+
+.register__buttons {
+    width: 195px;
+    padding-right: 8px;
+}
+
+.navbar__input {
+    margin-left: 34%;
+}
+
+.header__general--wrap {
+    margin-top: 20px
+}
+
+.main__info {
+    display: table;
+    width: 100%;
+}
+
+.main__info--row {
+    display: table-row;
+}
+
+li {
+    display: table-cell;
+    width: 33%;
+    text-align: center;
+}
+
+.display__choices {
+    display: table;
+    width: 100%;
+    margin-left: 0;
+}
+
+.display__choices span {
+    display: table-cell;
+    width: 50%;
+    text-align: center;
+}
+
+.display__choices a {
+    margin-top: 10px;
+}
+
+.main__images {
+    display: table;
+}
+
+.main__images--row {
+    display: table-row;
+}
+
+.main__images a {
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+}
+
+.footer__links {
+    margin: auto;
+    line-height: 25px;
+}
