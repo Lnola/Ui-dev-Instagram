@@ -66,6 +66,7 @@
     .width-95px {
         width: 95px;
     }
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -84,103 +85,51 @@
     }
 }
 
+@media screen and (min-width: 500px) {
+
+    .popup {
+        width: 80%;
+        margin: auto;
+        margin-top: 10%;
+    }
+
+    .modal__title--768 {
+        box-sizing: border-box;
+    }
+}
+
 @media screen and (min-width: 720px) {
 
     .popup {
-        margin: 0 auto;
-        margin-top: 145px;
-        height: 300px;
-        width: 930px;
-    }
-    
-    .popup__image--ratio {
-        width: 592px;
-        float: left;
-    }
-    
-    .modal {
-        float: right;
-        height: 592px;
-        max-width: 36%;
-    }
-
-    .modal__title figcaption {
-        width: 150px;
-        margin: 10px;
-    }
-
-    .modal__title--avatar {
-        margin-left: 0;
-    }
-
-    .modal__title {
-        padding-top: 20px;
-    }
-
-    .modal__bottom {
-        top: 375px;
-    }
-
-    .modal__info {
-        background-color: #fff;
-        padding-top: 10px;
-    }
-
-    .modal__comment {
-        background-color: #fff;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-
-    .popup {
-        margin: 0 auto;
-        margin-top: 125px;
-        min-height: 450px;
-        width: 690px;
+        background-color: black;
+        width: 90%;
+        height: 80%;
     }
 
     .popup__image--ratio {
-        width: 354px;
-        float: left;
-        margin-top: 50px;
+        display: inline-block;
+        width: 50%;
+        margin: auto 0;
     }
 
     .modal {
-        height: 300px;
-    }
-
-    .modal__bottom {
-        top: 280px
-    }
-
-    .modal__comment {
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-}
-
-@media screen and (max-width: 720px) {
-
-    .popup {
+        display: inline-block;
         height: 100%;
-        width: 100%;
-        margin: 0;
+        max-width: 50%;
+        position: absolute;
+        right: 0;
     }
 
-    .popup__image--ratio {
-        display: inline;
-        margin: auto;
-        width: 100%;
+    figcaption a {
+        width: 200px;
+        display: inline-block;
     }
+}
 
-    .modal {
-        display: inline;
-    }
+@media screen and (min-width: 1000px) {
 
-    .modal__description {
-        background-color: #fff;
+    .popup {
+        width: 70%;
+        max-height: 60%;
     }
 }

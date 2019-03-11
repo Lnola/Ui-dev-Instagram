@@ -37,6 +37,7 @@
 
     .popup {
         flex-wrap: wrap;
+        height: 90%;
     }
 
     figcaption {

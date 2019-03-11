@@ -65,6 +65,15 @@ footer p {
     display: inline-block;
 }
 
+.popup {
+    height: 930px;
+    background-color: #fff;
+}
+
+.popup__image--ratio {
+    margin-top: auto;
+}
+
 .modal__title--avatar {
     float: left;
 }
@@ -73,6 +82,10 @@ footer p {
     display: inline-block;
     width: 20px;
     margin: 4px 20px;
+}
+
+.modal__description {
+    padding-top: 20px;
 }
 
 .float-left {
@@ -99,6 +112,6 @@ footer p {
     margin: 0 20% 0 7%;
 }
 
-.h10 {
+.h-40px {
     height: 40px;
 }
